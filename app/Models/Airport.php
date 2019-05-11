@@ -5,6 +5,8 @@ namespace App\Models;
 use App\Interfaces\Model;
 use App\Models\Traits\ExpensableTrait;
 use App\Models\Traits\FilesTrait;
+use GeneaLabs\LaravelModelCaching\Traits\Cachable;
+
 
 /**
  * Class Airport
@@ -22,6 +24,7 @@ use App\Models\Traits\FilesTrait;
  */
 class Airport extends Model
 {
+    use Cachable;
     use ExpensableTrait;
     use FilesTrait;
 

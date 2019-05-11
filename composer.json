@@ -48,7 +48,8 @@
         "toin0u/geotools-laravel": "1.0.x",
         "vierbergenlars/php-semver": "3.0.x",
         "waavi/sanitizer": "1.0.x",
-        "webpatser/laravel-uuid": "3.x"
+        "webpatser/laravel-uuid": "3.x",
+        "genealabs/laravel-model-caching": "*"
     },
     "require-dev": {
         "phpunit/phpunit": "7.5.x",
